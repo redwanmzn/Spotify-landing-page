@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Poppins-medium;
+    src: url(Poppins-Medium.ttf);
+}
+        body{ background-image: url(spotifyBg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    margin: 0;}
+        .logo1 {width: 200px;
+        height: 60px;
+    background-image: url(Spotify_Logo_RGB_White.png);
+    background-size: 100%;
+    scale: 0.65;
+margin-left:4vw ;
+position: absolute;
+}
+.logo2 {width: 200px;
+    height: 60px;
+background-image: url(Spotify_Logo_RGB_White.png);
+background-size: 100%;
+scale: 0.65;
+margin-left:4vw ;
+position: absolute;
+}
+.header{ width: 100vw; background-color: rgb(6, 16, 10);
+height: 6.7vh;
+/*margin-top: 20px;*/
+display: flex; 
+justify-content: flex-end;
+}
+.btn { background-color: rgba(0, 0, 0, 0);
+    color: white;
+font-family: Poppins-medium;
+border: none;
+cursor: pointer;
+padding-left: 10px;
+margin-right: 50px;
+
+transition: 0.75s cubic-bezier(0, 1.7,0.9,3);
+
+}
+.btn:hover {background-color: rgb(112, 232, 112);
+border-radius:100px ;
+transition: 0.5s;
+scale: 1.1;
+color: black;}
+
+.btn2 { background-color: rgba(0, 0, 0, 0);
+    color: rgb(53, 183, 64);
+font-family: Poppins-medium;
+border: none;
+cursor: pointer;
+padding-left: 10px;
+margin-right: 50px;
+
+transition: 0.75s cubic-bezier(0, 1.7,0.9,3);
+ }
+ .btn2:hover {background-color: rgb(112, 232, 112);
+    color: black;
+border-radius:100px ;
+transition: 0.5s;
+scale: 1.1;}
+ 
+.search {
+    margin-right: 7vw;
+    border-radius: 50px; 
+    padding:0 150px 0 20px;
+    font-family: Poppins-medium;
+    
+    
+
+}
+h1 {font-family: Poppins-medium;
+font-size: 40pt;
+color: white;
+margin-left: 9vw;
+margin-top: 10vh;}
+
+h4 {font-family: Poppins-medium;
+font-size: 10pt;
+color: rgba(179, 179, 179, 0.973);
+margin-left: 10vw;
+margin-top: 1vh; }
+
+.sptfbtn {  
+ font-family: Poppins-medium;
+ background-color: #00000000;
+  width: 20vw;
+  height: 7vh;
+ color: #52eb47;
+  top: 0;
+  left: -100%;
+border-radius: 50px;
+border-color: #38ea2b;
+margin-top: 30px;
+margin-left: 130px;
+
+ }
+.sptfbtn:hover{ background-color: #38ea2b;
+    color: black;
+transition: 0.5s;
+border:none;
+scale: 1.07;
+ }
+ .Premium{
+    font-family: Poppins-medium;
+    font-size: 15pt;
+    margin-top: 80px;
+    margin-left: 30vw;
+ }
+ .Lucky1 {
+    width: 10vw;
+    height: 6vh;
+    font-family: Poppins-medium;
+    border-radius: 40px; 
+    border: none;
+margin-left: -5vw; }
+.Lucky2 {
+    width: 10vw;
+    height: 6vh;
+    font-family: Poppins-medium;
+    border-radius: 40px; 
+    border: none;
+margin-left: 4vw; 
+
+
+ }
+ .Lucky:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    scale: 1.05;
+ }
+ .pricingdiv { margin-left: 40vw; }
+ @media screen and (min-width:1200px) {.logo2{display: none};}
+    
+ 
+@media screen and (max-width:1200px)
+{.header {position:relative ;
+   display:  inline-block;}
+.logo1{ display: none;
+margin-left: 0; 
+}
+h1{text-align: center;}}
+#txtnum{
+    margin-left: 40%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    height: 5vh;
+    width: 15vw;
+    padding-left: 8px;
+}
+ #spnResultfalse{
+   color: red;
+    font-family: Poppins-medium;
+    margin-left:30px ;
+ }
+#spnResulttrue {
+    color: rgb(16, 243, 0);
+    font-family: Poppins-medium;
+    margin-left:30px ;
+}
